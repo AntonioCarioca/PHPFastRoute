@@ -1,0 +1,24 @@
+{
+	"name": "phpfastroute/fastroute",
+	"description": "Robust and flexible library for managing routes in PHP applications.",
+	"type": "library",
+	"homepage": "https://antoniocarioca.github.io/phpfastroute",
+	"license": "GPL-3.0-or-later",
+	"autoload": {
+		"psr-4": {
+			"PHPFastRoute\\FastRoute\\": "src/"
+		}
+	},
+	"authors":	[
+		{
+			"name": "Antonio Silva",
+            "email": "a.silva@mailfence.com",
+            "homepage": "https://antoniosilva.hashnode.dev/",
+            "role": "Systems Development Technician and PHP Developer"
+		}	
+	],
+	"minimum-stability": "stable",
+    "require": {
+        "php": "^8.0"
+    }
+}
